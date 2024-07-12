@@ -1,0 +1,62 @@
+print("----------------programs--------------:")
+import array as a
+print("----TYPE:'b'signed char----:")
+x=a.array("b",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array= :{[i],x[i]}")
+print("****************************:")
+print("----TYPE:'B'unsigned char----:")
+x=a.array("B",[10,80,46])
+for i in range(0,len(x)):
+    print(f"print of array= :{[i],x[i]}")
+print("****************************:")
+print("----TYPE:'h'signed short----:")
+x=a.array("h",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array= :{[i],x[i]}")
+print("****************************:")
+print("----TYPE:'H'unsigned short----:")
+x=a.array("H",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array= :{[i],x[i]}")
+print("****************************:")
+print("----TYPE:'i'signed int----:")
+x=a.array("i",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array= :{[i],x[i]}")
+print("****************************:")
+print("----TYPE:'d'double---:")
+x=a.array("d",[20.3883,80.4848,46.384])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")  
+print("----TYPE:'l'unsigned long----:")
+x=a.array("l",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")
+print("----TYPE:'L'unsigned long----:")
+x=a.array("L",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")
+print("----TYPE:'q'signed long long----:")
+x=a.array("q",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")
+print("----TYPE:'Q'unsigned long long----:")
+x=a.array("Q",[20,80,46])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:") 
+print("----TYPE:'f'float----:")
+x=a.array("f",[20.8,80.4,46.6])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")
+print("----TYPE:'I'unsigned int----:")
+x=a.array("I",[208,804,466])
+for i in range(0,len(x)):
+    print(f"print of array:{[i],x[i]}")
+print("*********************************:")
